@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body {
+  color: rgb(40, 30, 210);
+  background-color: rgb(220, 220, 230);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.card {
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 3px grey;
+}
+
+.card img {
+ border-radius: 15px;
+}
+
+.background-light-grey {
+  background-color: rgb(240, 240, 245);
+}
+
+.background-light-blue {
+  background-color: rgb(245, 240, 250);
+}
+
+h1, h2, h3 {
+  /* font-family:"San Francisco (Numbers)", "FreightSansPro", "Helvetica", "sans-serif"; */
+  font-family: 'Poppins', sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgb(30, 30, 100);
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: light;
+  color: rgb(30, 30, 100);
+  font-size: 16px;
+}
+
+h3 {
+  color: rgb(15, 15, 50);
+  font-size: 8px;
+}
+
+a {
+  text-decoration:none;
+  color:rgb(100, 100, 200);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color:rgb(200, 10, 10);
+}
